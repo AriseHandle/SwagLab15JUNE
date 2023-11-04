@@ -14,12 +14,12 @@ public class Browser {
         WebDriver driver = null;
         if(browser.equals("chrome"))
         {
-            //System.setProperty("webdriver.chrome.driver","E:\\automation-selenium\\chrome-headless-shell-win64\\chrome-headless-shell.exe");
+            
             driver = new ChromeDriver();
         }
         else if(browser.equals("edge"))
         {
-           // System.setProperty("webdriver.edge.driver","E:\\edge\\msedgedriver.exe");
+           
             driver = new EdgeDriver();
         }
         driver.navigate().to("https://www.saucedemo.com/");
