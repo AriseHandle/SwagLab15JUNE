@@ -4,7 +4,7 @@ import org.testng.ITestResult;
 
 import utility.ScreenShot;
 
-public class Listeners implements ITestListener {
+public class Listeners extends BaseTest implements ITestListener {
 	
 	public void onTestStart(ITestResult result) {
 		System.out.println("on test start :- " +result.getName());
