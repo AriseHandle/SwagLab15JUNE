@@ -4,6 +4,27 @@
   <artifactId>SwagLabs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+<<<<<<< HEAD
+	
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.14.1</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>5.1.1</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>5.2.4</version>
+	</dependency>
+
+=======
 		
 		
 	  
@@ -26,5 +47,6 @@
 
 
   
+>>>>>>> 6668d73453db3121e8b0b44389d41129601105f6
 	</dependencies>
 </project>
